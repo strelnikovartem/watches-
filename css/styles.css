@@ -25,10 +25,26 @@ a {
 .header-menu-item {
 }
 .header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0c0c0c;
 }
 .header-soc-list {
 }
 .header-soc-item {
 }
 .header-soc-link {
+}
+
+.hero {
+}
+.hero-title {
+}
+.hero-text {
+}
+.hero-img {
+}
+.hero-scroll-btn {
 }
