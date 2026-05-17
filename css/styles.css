@@ -90,7 +90,8 @@ address {
   color: #0c0c0c;
 }
 
-.hero-scroll-btn:hover {
+.hero-scroll-btn:hover,
+.hero-scroll-btn:focus {
   color: #3350e9;
 }
 
