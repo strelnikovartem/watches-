@@ -196,3 +196,100 @@ address {
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
 }
+
+.reviews {
+}
+
+.reviews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.97;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.reviews-list {
+}
+
+.reviews-item {
+}
+
+.reviews-item-img {
+}
+
+.reviews-item-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.reviews-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+}
+
+.footer {
+  background-color: #0c0c0c;
+}
+.footer-logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
+.footer-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-address {
+}
+
+.footer-address-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-nav {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-item {
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+}
