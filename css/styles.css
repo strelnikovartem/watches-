@@ -162,6 +162,7 @@ h3 {
 }
 
 .about-catalog-btn {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -199,12 +200,12 @@ h3 {
 }
 
 .advertisement-btn {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
-  display: block;
 }
 
 .advertisement-accent {
