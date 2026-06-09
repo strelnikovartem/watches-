@@ -74,6 +74,10 @@ h3 {
 .header-soc-list {
 }
 
+.menu-list {
+  display: flex;
+}
+
 .header-soc-item {
 }
 
