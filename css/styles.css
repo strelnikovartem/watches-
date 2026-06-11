@@ -35,6 +35,10 @@ h3 {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1190px;
   padding-left: 20px;
@@ -43,11 +47,18 @@ h3 {
 }
 
 .header {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  /* padding-top: 26px;
+  padding-bottom: 26px; */
+}
+
+.header-container {
+  display: flex;
 }
 
 .header-nav {
+  display: flex;
+  gap: 200px;
+  align-items: center;
 }
 
 .header-logo {
@@ -60,28 +71,39 @@ h3 {
 .header-menu-list {
 }
 
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .header-menu-item {
 }
 
 .header-menu-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
   text-align: center;
   color: #0c0c0c;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .header-soc-list {
-}
-
-.menu-list {
   display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 10px;
 }
 
 .header-soc-item {
 }
 
 .header-soc-link {
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .hero {
@@ -90,7 +112,11 @@ h3 {
 }
 
 .hero-block {
+  display: flex;
   margin-bottom: 40px;
+}
+
+.hero-block-text {
 }
 
 .hero-title {
