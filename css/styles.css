@@ -114,6 +114,7 @@ img {
 .hero-block {
   display: flex;
   margin-bottom: 40px;
+  justify-content: space-between;
 }
 
 .hero-block-text {
@@ -143,7 +144,14 @@ img {
 }
 
 .hero-img {
+  display: flex;
+  flex-direction: column;
   padding-bottom: 50px;
+}
+
+.hero-img-foto {
+  display: flex;
+  margin-bottom: auto;
 }
 
 .hero-scroll-btn {
@@ -154,6 +162,7 @@ img {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
+  margin-left: auto;
 }
 
 .hero-scroll-btn:hover,
