@@ -177,6 +177,10 @@ img {
 }
 
 .about-block {
+  border-radius: 50px;
+  width: 580px;
+  height: 532px;
+  background-color: #f3f3f3;
 }
 
 .about-title {
