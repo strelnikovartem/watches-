@@ -234,6 +234,11 @@ img {
   border: none;
 }
 
+.about-catalog-btn:hover,
+.about-catalog-btn:focus {
+  background: #1f3cd4;
+}
+
 .about-img {
 }
 
