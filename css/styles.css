@@ -176,11 +176,17 @@ img {
   padding-bottom: 50px;
 }
 
+.about-container {
+  display: flex;
+  gap: 40px;
+}
+
 .about-block {
   border-radius: 50px;
-  width: 580px;
+  max-width: 580px;
   height: 532px;
   background-color: #f3f3f3;
+  padding: 80px 60px 168px;
 }
 
 .about-title {
@@ -192,14 +198,22 @@ img {
   margin-bottom: 40px;
 }
 
+.about-block-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  width: 460px;
+  height: 200px;
+}
+
 .about-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
-  margin-bottom: 20px;
-  max-width: 512px;
 }
 
 .about-text-first {
@@ -213,6 +227,11 @@ img {
   text-align: center;
   color: #fbfbfb;
   margin-top: 20px;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  border: none;
 }
 
 .about-img {
