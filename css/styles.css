@@ -104,6 +104,10 @@ img {
   padding-bottom: 26px;
 }
 
+.header-soc-icon {
+  fill: #0c0c0c;
+}
+
 .hero {
   padding-top: 80px;
   padding-bottom: 50px;
