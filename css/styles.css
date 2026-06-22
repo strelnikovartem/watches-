@@ -264,8 +264,14 @@ img {
 }
 
 .advertisement-container {
+  display: flex;
+  background-image: url(../images/advertisement-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 30px;
   background-color: #0c0c0c;
+  padding: 80px;
 }
 
 .advertisement-bg {
@@ -277,10 +283,7 @@ img {
   line-height: 0.92;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  max-width: 860px;
-  padding-top: 83px;
-  padding-bottom: 83px;
-  padding-left: 80px;
+  max-width: 780px;
 }
 
 .advertisement-btn {
@@ -290,6 +293,19 @@ img {
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
+  margin-left: auto;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: transparent;
+}
+
+.advertisement-btn:hover,
+.advertisement-btn:focus {
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  color: #0c0c0c;
+  background: #fbfbfb;
 }
 
 .advertisement-accent {
