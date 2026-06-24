@@ -67,9 +67,6 @@ img {
 }
 
 .header-menu-list {
-}
-
-.menu-list {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -409,8 +406,7 @@ img {
   flex-direction: column;
   gap: 8px;
   border-radius: 30px;
-  padding: 32px 36px;
-
+  padding: 32px 18px;
   width: 370px;
   height: 272px;
   background-color: #f3f3f3;
@@ -444,8 +440,21 @@ img {
 }
 
 .footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 126px;
+  border-radius: 30px;
+  padding-block: 40px 28px;
+  padding-inline: 40px;
   background-color: #0c0c0c;
 }
+
+.footer-block {
+  display: flex;
+}
+
 .footer-logo {
   font-weight: 500;
   font-size: 20px;
@@ -465,6 +474,7 @@ img {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  max-width: 523px;
 }
 .footer-address {
 }
