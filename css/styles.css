@@ -456,10 +456,10 @@ img {
 
 .footer-block {
   display: flex;
+  /* justify-content: space-between; */
 }
 
 .footer-logo {
-  font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.02em;
   color: #fbfbfb;
@@ -495,17 +495,17 @@ img {
 
 .footer-block-text-address {
   display: flex;
-  margin-left: 0 auto;
+  /* margin-left: 140px; */
 }
 
 .footer-text {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  max-width: 580px;
+  max-width: 565px;
 }
 .footer-address {
 }
@@ -515,13 +515,11 @@ img {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   padding: 15px;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
-  margin-left: 147px;
 }
 
 .footer-nav {
