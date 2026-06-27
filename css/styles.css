@@ -443,11 +443,11 @@ img {
 }
 
 .footer-container {
-  display: flex;
-  align-items: flex-start;
+  /* display: flex; */
+  /* align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: column;
-  gap: 126px;
+  flex-direction: column; */
+  /* gap: 126px; */
   border-radius: 30px;
   padding-block: 40px 28px;
   padding-inline: 40px;
@@ -456,6 +456,11 @@ img {
 
 .footer-block {
   display: flex;
+  flex-direction: row;
+}
+
+.footer-block-logo-soc {
+  display: block;
 }
 
 .footer-logo {
@@ -494,7 +499,8 @@ img {
 
 .footer-block-text-address {
   display: flex;
-  gap: 147px;
+  gap: 120px;
+  margin-left: auto;
 }
 
 .footer-text {
