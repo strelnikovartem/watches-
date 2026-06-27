@@ -456,7 +456,6 @@ img {
 
 .footer-block {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .footer-logo {
@@ -495,7 +494,7 @@ img {
 
 .footer-block-text-address {
   display: flex;
-  /* margin-left: 140px; */
+  gap: 147px;
 }
 
 .footer-text {
