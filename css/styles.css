@@ -469,14 +469,6 @@ img {
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
-.footer-list {
-  display: flex;
-  gap: 10px;
-}
-.footer-item {
-}
-.footer-link {
-}
 
 .footer-soc-icon {
   display: flex;
