@@ -109,6 +109,7 @@ img {
   height: 36px;
   fill: #0c0c0c;
   opacity: 0.8;
+  transition: border 300ms linear, fill 300ms linear;
 }
 
 .header-soc-icon:hover,
@@ -245,11 +246,13 @@ img {
   height: 48px;
   background: #3350e9;
   border: none;
+  transition: background-color 300ms linear, color 300ms linear;
 }
 
 .about-catalog-btn:hover,
 .about-catalog-btn:focus {
-  background: #1f3cd4;
+  background-color: #1f3cd4;
+  color: #a098a6;
 }
 
 .about-img {
@@ -296,13 +299,14 @@ img {
   width: 160px;
   height: 48px;
   background-color: transparent;
+  transition: color 300ms linear, background-color 300ms linear, border 300ms linear;
 }
 
 .advertisement-btn:hover,
 .advertisement-btn:focus {
   border: 1px solid rgba(251, 251, 251, 0.15);
   color: #0c0c0c;
-  background: #fbfbfb;
+  background-color: #fbfbfb;
 }
 
 .advertisement-accent {
@@ -470,6 +474,11 @@ img {
   color: #fbfbfb;
 }
 
+.footer-list {
+  display: flex;
+  gap: 10px;
+}
+
 .footer-soc-icon {
   display: flex;
   align-items: center;
@@ -483,6 +492,7 @@ img {
   height: 36px;
   opacity: 0.8;
   fill: #fbfbfb;
+  transition: opacity 300ms linear;
 }
 
 .footer-soc-icon:hover,
