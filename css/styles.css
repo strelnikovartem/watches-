@@ -410,14 +410,10 @@ img {
   flex-direction: column;
   gap: 8px;
   border-radius: 30px;
-  padding: 32px 18px;
+  padding: 32px 38px;
   width: 370px;
   height: 272px;
   background-color: #f3f3f3;
-}
-
-.reviews-item-ex {
-  /* padding: 32px 20px; */
 }
 
 .reviews-item-img {
@@ -436,7 +432,7 @@ img {
 
 .reviews-item-text {
   font-weight: 500;
-  /* font-size: 16px; */
+  font-size: 14px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   text-align: center;
@@ -457,6 +453,25 @@ img {
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 40px;
+}
+
+.contact-block {
+}
+
+.contact-block-form {
+  border-radius: 50px;
+  width: 580px;
+  height: 556px;
+  background: #f3f3f3;
+  padding: 50px 60px;
+}
+
+.contat-block-form-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .footer {
