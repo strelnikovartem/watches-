@@ -472,6 +472,16 @@ img {
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 32px;
+}
+
+.contact-block-input {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding-block: 16px;
+  padding-inline: 18px;
+  width: 100%;
+  height: 52px;
 }
 
 .footer {
