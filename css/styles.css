@@ -516,6 +516,12 @@ img {
   color: #0c0c0c;
 }
 
+.contact-block-textarea::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0c0c0c;
+}
+
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
