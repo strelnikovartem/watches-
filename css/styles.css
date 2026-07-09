@@ -237,7 +237,7 @@ img {
   display: block;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
   margin-top: 20px;
@@ -250,7 +250,9 @@ img {
 }
 
 .about-catalog-btn:hover,
-.about-catalog-btn:focus {
+.about-catalog-btn:focus,
+.contact-block-form-btn:hover,
+.contact-block-form-btn:focus {
   background-color: #1f3cd4;
   color: #a098a6;
 }
@@ -456,6 +458,8 @@ img {
 }
 
 .contact-block {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-block-form {
@@ -520,6 +524,24 @@ img {
   font-size: 16px;
   line-height: 1.25;
   color: #0c0c0c;
+}
+
+.contact-block-form-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  padding-block: 17px;
+  padding-inline: 63px;
+  width: 160px;
+  height: 52px;
+  background-color: #3350e9;
+  border: none;
+}
+
+.contact-img {
+  border-radius: 50px;
 }
 
 .footer {
