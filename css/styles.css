@@ -40,10 +40,13 @@ img {
 }
 
 .container {
-  width: 1190px;
+  width: 375px;
+  padding: 20px;
+
+  /* width: 1190px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .header {
