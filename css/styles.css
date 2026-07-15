@@ -163,7 +163,8 @@ img {
 .hero-img {
   display: flex;
   flex-wrap: nowrap;
-  padding-bottom: 50px;
+  padding-bottom: 28px;
+  /* padding-bottom: 50px; */
 }
 
 .hero-img-foto {
@@ -172,14 +173,8 @@ img {
   position: relative;
 }
 
-.hero-img-foto-position-1 {
-  position: absolute;
-  left: 33px;
-}
-
-.hero-img-foto-position-2 {
-  position: absolute;
-  left: 66px;
+.hero-img-foto img:not(:first-child) {
+  margin-left: -11px;
 }
 
 .hero-scroll-btn {
