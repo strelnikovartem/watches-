@@ -202,9 +202,7 @@ img {
 .hero-img-watch {
 }
 
-@media screen and {
-}
- {
+@media screen and (min-width: 768px) {
 }
 
 .about {
