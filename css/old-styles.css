@@ -1,5 +1,3 @@
-
-
 .header {
 }
 
@@ -75,38 +73,17 @@
 .hero {
   padding-top: 80px;
   padding-bottom: 50px;
-  
-}
-
-.hero-block {
-  display: flex;
-
 }
 
 .hero-block-text {
 }
 
-
-
-
-
 .hero-img {
-  
   /* padding-bottom: 50px; */
 }
 
-
-
-
-
-
-
-
-
 .hero-img-watch {
 }
-
-
 
 .about {
   padding-top: 50px;
