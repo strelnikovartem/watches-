@@ -64,6 +64,27 @@ img {
   }
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-list {
+  display: none;
+}
+
+.header-soc-list {
+  display: none;
+}
+
+.header-mob-btn-burger {
+  background-color: transparent;
+  border-color: red;
+  padding: 0;
+  stroke-width: 2.5px;
+  stroke: #0c0c0c;
+}
+
 .hero {
   padding-top: 60px;
   padding-bottom: 30px;
