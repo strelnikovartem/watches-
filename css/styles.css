@@ -64,9 +64,22 @@ img {
   }
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
 }
 
 .header-menu-list {
@@ -77,10 +90,15 @@ img {
   display: none;
 }
 
-.header-mob-btn-burger {
+.header-mob-btn {
   background-color: transparent;
-  border-color: red;
+  border: none;
   padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-mob-btn-burger {
   stroke-width: 2.5px;
   stroke: #0c0c0c;
 }
