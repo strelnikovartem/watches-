@@ -98,7 +98,8 @@ img {
   padding-bottom: 20px;
 }
 
-.header-mob-btn-burger {
+.header-mob-icon {
+  display: block;
   stroke-width: 2.5px;
   stroke: #0c0c0c;
 }
