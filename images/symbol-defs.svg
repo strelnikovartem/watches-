@@ -12,5 +12,9 @@
 <symbol id="icon-burger" viewBox="0 0 69 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.1538" d="M3.077 3.077h62.769M3.077 27.487h62.769"></path>
 </symbol>
+<symbol id="icon-x" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M8 8l16 16"></path>
+</symbol>
 </defs>
 </svg>
