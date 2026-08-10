@@ -393,3 +393,75 @@ img {
     height: 60px;
   }
 }
+
+.about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-block {
+  border-radius: 30px;
+  width: 335px;
+  height: 446px;
+  background-color: #f3f3f3;
+  padding: 40px 20px;
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+
+  margin-bottom: 28px;
+}
+
+.about-block-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  /* width: 460px;
+  height: 200px; */
+}
+
+.about-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.about-catalog-btn {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 20px;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  border: none;
+  transition: background-color 300ms linear, color 300ms linear;
+}
+
+.about-catalog-btn:hover,
+.about-catalog-btn:focus,
+.contact-block-form-btn:hover,
+.contact-block-form-btn:focus {
+  background-color: #1f3cd4;
+  color: #a098a6;
+}

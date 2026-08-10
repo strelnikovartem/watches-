@@ -147,7 +147,7 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button
             class="mobile-close-button"
@@ -313,7 +313,7 @@
           </picture>
         </div>
       </section>
-      <!-- <section class="about">
+      <section class="about">
         <div class="container about-container">
           <div class="about-block">
             <h2 class="about-title">About Us</h2>
@@ -335,16 +335,32 @@
               View catalog
             </button>
           </div>
-          <img
-            src="./images/aboutImg.jpg"
-            width="530"
-            height="532"
-            alt="watch"
-            class="about-img"
-          />
+          <picture>
+            <source
+              media="(min-width:1190px)"
+              srcset="./images/aboutImg.jpg 1x, ./images/aboutImg-2x.jpg 2x"
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="./images/aboutImg-tab.jpg 1x, ./images/aboutImg-tab-2x.jpg 2x"
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="./images/aboutImg-mob.jpg 1x, ./images/aboutImg-mob-2x.jpg 2x"
+              type="image/jpg"
+            />
+            <img
+              src="./images/aboutImg.jpg"
+              width="704"
+              height="532"
+              alt="watch"
+              class="about-img"
+            />
+          </picture>
         </div>
       </section>
-      -->
       <!-- <section class="advertisement">
         <div class="container advertisement-container">
           <h2 class="advertisement-title">
@@ -358,7 +374,7 @@
             Contact Us
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- <section class="sale">
         <div class="container">
           <h2 class="sale-title">Sale</h2>
