@@ -445,7 +445,6 @@ img {
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-
   margin-bottom: 28px;
 }
 
@@ -493,4 +492,28 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .about-block {
+    border-radius: 50px;
+    padding: 80px 40px;
+    width: 704px;
+    height: 512px;
+  }
+
+  .about-title {
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+  }
+
+  .about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+  }
+
+  .about-block-text {
+    margin-bottom: 50px;
+  }
 }
