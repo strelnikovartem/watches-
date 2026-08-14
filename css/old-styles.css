@@ -58,30 +58,6 @@
 .about-text-first {
 }
 
-.about-catalog-btn {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: #fbfbfb;
-  margin-top: 20px;
-  border-radius: 16px;
-  width: 160px;
-  height: 48px;
-  background: #3350e9;
-  border: none;
-  transition: background-color 300ms linear, color 300ms linear;
-}
-
-.about-catalog-btn:hover,
-.about-catalog-btn:focus,
-.contact-block-form-btn:hover,
-.contact-block-form-btn:focus {
-  background-color: #1f3cd4;
-  color: #a098a6;
-}
-
 .about-img {
 }
 

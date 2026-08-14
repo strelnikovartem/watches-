@@ -495,8 +495,8 @@ img {
   .about-block {
     border-radius: 50px;
     padding: 80px 40px;
-    width: 704px;
-    height: 512px;
+    width: 100%;
+    height: auto;
   }
 
   .about-title {
@@ -515,5 +515,9 @@ img {
 
   .about-block-text {
     margin-bottom: 50px;
+  }
+
+  .about-catalog-btn {
+    margin-bottom: 0;
   }
 }
