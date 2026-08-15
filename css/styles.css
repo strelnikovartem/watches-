@@ -501,7 +501,7 @@ img {
 
   .about-title {
     font-size: 48px;
-    line-height: 0.91667;
+    line-height: 0.92;
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 40px;
@@ -519,5 +519,34 @@ img {
 
   .about-catalog-btn {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-container {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .about-block {
+    border-radius: 50px;
+    max-width: 580px;
+    height: 532px;
+    padding: 80px 60px 168px;
+  }
+
+  .about-block-text {
+    width: 460px;
+    height: 200px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
