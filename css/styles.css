@@ -559,14 +559,16 @@ img {
 .advertisement-container {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(../images/advertisement-bg.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/advertisement-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 30px;
   background-color: #0c0c0c;
   padding: 60px 28px;
+  width: 100%;
   height: auto;
+  border: 1px solid #000;
 }
 
 .advertisement-title {
@@ -611,8 +613,8 @@ img {
   }
 
   .advertisement-container {
-    padding: 80px 64px;
-    width: 100%;
+    padding: 80px 32px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/advertisement-bg-tab.jpg);
   }
 
   .advertisement-title {
