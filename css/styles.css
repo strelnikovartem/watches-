@@ -614,7 +614,7 @@ img {
 
   .advertisement-container {
     padding: 80px 32px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url(../images/advertisement-bg-tab.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/advertisement-bg-tab.jpg);
   }
 
   .advertisement-title {
