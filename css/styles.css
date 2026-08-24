@@ -658,3 +658,24 @@ img {
   color: #0c0c0c;
   margin-bottom: 24px;
 }
+
+.sale-list {
+  display: flex;
+  gap: 5px;
+}
+
+.sale-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background-color: #f3f3f3;
+}
+
+.sale-link {
+  width: 52px;
+  height: 54px;
+}
