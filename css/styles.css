@@ -559,7 +559,7 @@ img {
 .advertisement-container {
   display: flex;
   flex-wrap: wrap;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/advertisement-bg-mob.jpg);
+  background-image: url(../images/advertisement-bg-mob.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
