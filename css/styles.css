@@ -614,7 +614,7 @@ img {
 
   .advertisement-container {
     padding: 80px 62px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/advertisement-bg-tab.jpg);
+    background-image: url(../images/advertisement-bg-tab.png);
   }
 
   .advertisement-title {
@@ -634,6 +634,7 @@ img {
     flex-wrap: nowrap;
     padding: 80px;
     justify-content: space-between;
+    background-image: url(../images/advertisement-bg.png);
   }
 
   .advertisement-title {
@@ -659,6 +660,12 @@ img {
   margin-bottom: 24px;
 }
 
+.sale-block-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .sale-list {
   display: flex;
   gap: 5px;
@@ -678,4 +685,12 @@ img {
 .sale-link {
   width: 52px;
   height: 54px;
+}
+
+.sale-big {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background: #f3f3f3;
 }
