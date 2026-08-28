@@ -384,13 +384,30 @@
             <div class="sale-block-img">
               <ul class="sale-list">
                 <li class="sale-item">
-                  <img
-                    src="./images/sale/saleClock1.png"
-                    width="132"
-                    height="132"
-                    alt="watch"
-                    class="sale-link"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width:1190px)"
+                      srcset="./images/sale/saleClock1.png 1x, ./images/sale/saleClock1-2x.png 2x"
+                      type="image/png"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="./images/sale/saleClock1.png 1x, ./images/sale/saleClock1-2x.png 2x"
+                      type="image/png"
+                    />
+                    <source
+                      media="(max-width:767px)"
+                      srcset="./images/sale/saleClock1-mob.png 1x, ./images/sale/saleClock1-mob-2x.png 2x"
+                      type="image/png"
+                    />
+                    <img
+                      src="./images/sale/saleClock1.png"
+                      width="96"
+                      height="100"
+                      alt="saleWatch1"
+                      class="sale-link"
+                    />
+                  </picture>
                 </li>
                 <li class="sale-item">
                   <img
