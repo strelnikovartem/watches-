@@ -1,14 +1,3 @@
-.sale {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.sale-title {
-  font-size: 48px;
-  line-height: 0.92;
-  margin-bottom: 40px;
-}
-
 .sale-list {
   gap: 10px;
   flex-direction: column;
