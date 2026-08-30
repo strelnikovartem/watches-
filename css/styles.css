@@ -652,6 +652,12 @@ img {
   padding-bottom: 30px;
 }
 
+.sale-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
 .sale-title {
   font-size: 32px;
   line-height: 1;
@@ -693,4 +699,27 @@ img {
   width: 335px;
   height: 385px;
   background: #f3f3f3;
+}
+
+.sale-block-text {
+  width: 100%;
+  padding: 48px 28px;
+  border-radius: 50px;
+  background-color: #3350e9;
+}
+
+.sale-subtitle {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.sale-text {
+  font-size: 13px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
 }

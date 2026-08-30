@@ -4,24 +4,12 @@
 }
 
 .sale-title {
-  font-weight: 600;
   font-size: 48px;
   line-height: 0.92;
   margin-bottom: 40px;
 }
 
-.sale-block {
-  display: flex;
-  gap: 40px;
-}
-
-.sale-block-img {
-  display: flex;
-  gap: 20px;
-}
-
 .sale-list {
-  display: flex;
   gap: 10px;
   flex-direction: column;
 }
@@ -35,19 +23,9 @@
 .sale-big {
 }
 
-.sale-block-text {
-  width: 530px;
-  height: 558px;
-  border-radius: 50px;
-  background-color: #3350e9;
-}
-
 .sale-subtitle {
-  font-weight: 600;
   font-size: 32px;
   line-height: 1.12;
-  letter-spacing: -0.02em;
-  color: #fbfbfb;
   max-width: 560px;
   padding-top: 60px;
   padding-right: 80px;
@@ -56,11 +34,8 @@
 }
 
 .sale-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  letter-spacing: -0.02em;
-  color: rgba(251, 251, 251, 0.7);
   padding-right: 60px;
   padding-left: 60px;
   padding-bottom: 60px;
