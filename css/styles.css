@@ -803,3 +803,25 @@ img {
     height: 558px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    /* чтобы не было горизонтального скроллбара */
+    scrollbar-width: none;
+  }
+
+  .reviews-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .reviews-item {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+  }
+}

@@ -1,36 +1,3 @@
-.sale-list {
-  gap: 10px;
-  flex-direction: column;
-}
-
-.sale-item {
-}
-
-.sale-link {
-}
-
-.sale-big {
-}
-
-.sale-subtitle {
-  font-size: 32px;
-  line-height: 1.12;
-  max-width: 560px;
-  padding-top: 60px;
-  padding-right: 80px;
-  padding-left: 60px;
-  margin-bottom: 80px;
-}
-
-.sale-text {
-  font-size: 16px;
-  line-height: 1.25;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-bottom: 60px;
-  max-width: 560px;
-}
-
 .reviews {
   padding-top: 50px;
   padding-bottom: 50px;
