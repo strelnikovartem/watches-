@@ -1,25 +1,7 @@
-.reviews {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.reviews-title {
-  font-size: 48px;
-  line-height: 0.92;
-  margin-bottom: 40px;
-}
-
 .reviews-item {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  border-radius: 30px;
   padding: 32px 38px;
   width: 370px;
   height: 272px;
-  background-color: #f3f3f3;
 }
 
 .reviews-item-img {
@@ -27,22 +9,13 @@
 }
 
 .reviews-item-subtitle {
-  font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #0c0c0c;
-  margin-bottom: 8px;
 }
 
 .reviews-item-text {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.25;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: rgba(12, 12, 12, 0.4);
 }
 
 .contact {
