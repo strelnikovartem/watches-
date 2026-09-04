@@ -738,15 +738,13 @@ img {
     margin-bottom: 40px;
   }
 
-  .sale-block {
-  }
-
   .sale-block-img {
     flex-wrap: nowrap;
   }
 
   .sale-list {
     flex-direction: column;
+    gap: 10px;
   }
 
   .sale-item {
@@ -840,7 +838,6 @@ img {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
   width: 335px;
   height: 262px;
   border-radius: 30px;
@@ -888,11 +885,53 @@ img {
     flex: 0 0 calc((100% - 16px) / 2);
     width: 344px;
     height: 272px;
+    padding: 32px 26px;
+  }
+
+  .reviews-item-subtitle {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .reviews-item-text {
+    font-size: 14px;
+    line-height: 1.25;
   }
 }
 
 @media screen and (min-width: 1190px) {
   .reviews {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .reviews-list {
+    overflow: visible;
+    scroll-snap-type: none;
+  }
+
+  .reviews-item {
+    flex: 1;
+    padding: 32px 36px;
+    width: 370px;
+    height: 272px;
+  }
+}
+
+.contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .contact {
     padding-top: 50px;
     padding-bottom: 50px;
   }
