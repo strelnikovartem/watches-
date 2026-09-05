@@ -923,10 +923,43 @@ img {
   padding-bottom: 30px;
 }
 
+.contact-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.contact-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-block-form {
+  border-radius: 30px;
+  padding: 48px 28px;
+  width: 335px;
+  height: 512px;
+  background-color: #f3f3f3;
+}
+
 @media screen and (min-width: 768px) {
   .contact {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .contact-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .contact-block {
+    gap: 40px;
   }
 }
 
