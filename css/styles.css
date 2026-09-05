@@ -655,7 +655,7 @@ img {
 .sale-block {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
 }
 
 .sale-title {
@@ -736,6 +736,10 @@ img {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
+  }
+
+  .sale-block {
+    gap: 40px;
   }
 
   .sale-block-img {
@@ -941,9 +945,65 @@ img {
 .contact-block-form {
   border-radius: 30px;
   padding: 48px 28px;
-  width: 335px;
-  height: 512px;
+  width: 100%;
   background-color: #f3f3f3;
+}
+
+.contat-block-form-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+
+.contact-block-input {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding-block: 16px;
+  padding-inline: 18px;
+  width: 100%;
+  height: 52px;
+  margin-bottom: 18px;
+  background-color: #f3f3f3;
+  transition: border 500ms linear;
+  outline: transparent;
+}
+
+.contact-block-textarea {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding-block: 16px;
+  padding-inline: 18px;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 32px;
+  background-color: #f3f3f3;
+  transition: border 500ms linear;
+  outline: transparent;
+  resize: none;
+}
+
+.contact-block-input::placeholder,
+.contact-block-textarea::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0c0c0c;
+}
+
+.contact-block-form-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  padding-block: 17px;
+  padding-inline: 63px;
+  width: 160px;
+  height: 52px;
+  background-color: #3350e9;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
