@@ -619,13 +619,31 @@
                 </button>
               </form>
             </div>
-            <img
-              class="contact-img"
-              src="./images/contact-img.jpg"
-              width="530"
-              height="556"
-              alt="contact-watchs"
-            />
+
+            <picture class="contact-img">
+              <source
+                media="(min-width:1190px)"
+                srcset="./images/contact-img.jpg 1x, ./images/contact-img-2x.jpg 2x"
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="./images/contact-img-tablet.jpg 1x, ./images/contact-img-tablet-2x.jpg 2x"
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="./images/contact-img-mob.jpg 1x, ./images/contact-img-mob-2x.jpg 2x"
+                type="image/jpg"
+              />
+              <img
+                class="contact-img-"
+                src="./images/contact-img.jpg"
+                width="704"
+                height="556"
+                alt="contact-watchs"
+              />
+            </picture>
           </div>
         </div>
       </section>

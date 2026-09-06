@@ -50,7 +50,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -1006,6 +1006,10 @@ img {
   border: none;
 }
 
+.contact-img {
+  border-radius: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .contact {
     padding-top: 40px;
@@ -1021,11 +1025,42 @@ img {
   .contact-block {
     gap: 40px;
   }
+
+  .contact-block-form {
+    border-radius: 50px;
+    padding: 50px 122px;
+  }
+
+  .contat-block-form-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+
+  .contact-img {
+    border-radius: 50px;
+  }
 }
 
 @media screen and (min-width: 1190px) {
   .contact {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .contact-block {
+    flex-wrap: nowrap;
+  }
+
+  .contact-block-form {
+    border-radius: 50px;
+    padding: 50px 60px;
+    width: 580px;
+    height: 556px;
+  }
+
+  .contact-img {
+    width: 530px;
   }
 }
