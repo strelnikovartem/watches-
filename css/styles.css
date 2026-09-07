@@ -1158,6 +1158,9 @@ img {
 .footer-block-nav {
   display: flex;
   margin-bottom: 28px;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .footer-nav-list {
