@@ -1,10 +1,3 @@
-.footer-container {
-  border-radius: 30px;
-  padding-block: 40px 28px;
-  padding-inline: 40px;
-  background-color: #0c0c0c;
-}
-
 .footer-block {
   display: flex;
   flex-direction: row;
@@ -43,11 +36,6 @@
   opacity: 0.8;
   fill: #fbfbfb;
   transition: opacity 300ms linear;
-}
-
-.footer-soc-icon:hover,
-.footer-soc-icon:focus {
-  opacity: 1;
 }
 
 .footer-block-text-address {
