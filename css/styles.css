@@ -1085,7 +1085,6 @@ img {
 }
 
 .footer-block {
-  margin-bottom: 92px;
 }
 
 .footer-block-logo-soc {
@@ -1130,19 +1129,19 @@ img {
   opacity: 1;
 }
 
-.footer-address-tel {
-  display: block;
+.footer-address {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   padding: 15px;
+}
+
+.footer-address-tel {
   font-weight: 500;
   font-size: 11px;
   line-height: 1.33;
   text-align: center;
   text-transform: uppercase;
   color: #fbfbfb;
-  width: 152px;
-  margin-bottom: 40px;
 }
 
 .footer-text {
@@ -1153,6 +1152,8 @@ img {
   text-align: center;
   color: #fbfbfb;
   width: 272px;
+  margin-top: 40px;
+  margin-bottom: 92px;
 }
 
 .footer-block-nav {
@@ -1214,6 +1215,36 @@ img {
   }
 
   .footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 68px;
+  }
+
+  .footer-block-logo-soc {
+    min-width: 128px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-list {
+    margin-bottom: 0;
+  }
+
+  .footer-address-tel {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .footer-text {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    width: 575px;
+    margin: 0 auto;
+    margin-bottom: 100px;
   }
 }
 
