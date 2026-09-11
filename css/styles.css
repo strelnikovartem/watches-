@@ -1130,6 +1130,7 @@ img {
 }
 
 .footer-address {
+  width: max-content;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   padding: 15px;
@@ -1158,10 +1159,10 @@ img {
 
 .footer-block-nav {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 28px;
   border-bottom: 1px solid rgba(251, 251, 251, 0.1);
   padding-bottom: 24px;
-  margin-bottom: 24px;
 }
 
 .footer-nav-list {
@@ -1185,7 +1186,6 @@ img {
   line-height: 1.33;
   color: #fbfbfb;
   width: 83px;
-  margin-left: auto;
 }
 
 .footer-end-text,
@@ -1245,6 +1245,40 @@ img {
     width: 575px;
     margin: 0 auto;
     margin-bottom: 100px;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    gap: 19px;
+  }
+
+  .footer-nav-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-info {
+    font-style: 13px;
+    line-height: 1.29;
+    width: 162px;
+  }
+
+  .footer-end {
+    display: flex;
+  }
+
+  .footer-end-block {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+  }
+
+  .footer-end-help,
+  .footer-end-text {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 
